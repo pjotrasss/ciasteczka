@@ -1,0 +1,21 @@
+main{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+section{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    width: 80%;
+    margin: 5% 0 5% 0;
+}
+
+section > input{
+    text-align: center;
+}
+
+section > img {
+    width: 15%;
+}

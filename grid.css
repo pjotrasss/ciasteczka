@@ -1,0 +1,26 @@
+main {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    justify-items: center;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    width: 80%;
+    margin: 5% 0;
+}
+
+#images {
+    grid-template-columns: repeat(6, 1fr);
+}
+
+section > input {
+    width: fit-content;
+    text-align: center;
+}
+
+section > img {
+    width: 90%;
+}
